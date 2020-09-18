@@ -17,7 +17,7 @@ int main(void) {
 }
 
 int sum_n(int n){
-  int summation;
+  int summation=0;
   summation = summation + (n%10);
   if((n/10)>0)
     summation = n%10 + sum_n(n/10);
